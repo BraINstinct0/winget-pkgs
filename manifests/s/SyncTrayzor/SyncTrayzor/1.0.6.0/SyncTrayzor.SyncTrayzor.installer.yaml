@@ -1,11 +1,11 @@
-# Created with YamlCreate.ps1 v2.0.0 using YAML parsing
+# Created using wingetcreate 0.4.3.1
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.0.0.schema.json
 
 PackageIdentifier: SyncTrayzor.SyncTrayzor
-PackageVersion: 1.1.29.0
+PackageVersion: 1.0.6.0
+MinimumOSVersion: 10.0.0.0
 Platform:
 - Windows.Desktop
-MinimumOSVersion: 10.0.0.0
 InstallModes:
 - interactive
 - silent
@@ -15,8 +15,8 @@ Installers:
   Architecture: x64
   InstallerType: inno
   Scope: machine
-  InstallerUrl: https://github.com/canton7/SyncTrayzor/releases/download/v1.1.29/SyncTrayzorSetup-x64.exe
-  InstallerSha256: BD9631C18B6B0BEDE73FDB80481784D2E21820E9DBB1D3D7F1B98B5D89745209
+  InstallerUrl: https://github.com/canton7/SyncTrayzor/releases/download/v1.0.6/SyncTrayzorSetup-x64.exe
+  InstallerSha256: 26228B6CCF16E30B57080024A60DC69CBD6CF38F638A2D7C3D6C0F8470A36B71
   InstallerSwitches:
     Custom: /NORESTART
   UpgradeBehavior: install
@@ -24,8 +24,8 @@ Installers:
   Architecture: x86
   InstallerType: inno
   Scope: machine
-  InstallerUrl: https://github.com/canton7/SyncTrayzor/releases/download/v1.1.29/SyncTrayzorSetup-x86.exe
-  InstallerSha256: 7D0B4D3A8F4E9791DF963EBAE8B1B789158878E9AAD2F5B76A876C10661D7F46
+  InstallerUrl: https://github.com/canton7/SyncTrayzor/releases/download/v1.0.6/SyncTrayzorSetup-x86.exe
+  InstallerSha256: 9677DA42144A26281970CAC5C5A813E38D76F35BB422F093737499AE5A45D436
   InstallerSwitches:
     Custom: /NORESTART
   UpgradeBehavior: install
