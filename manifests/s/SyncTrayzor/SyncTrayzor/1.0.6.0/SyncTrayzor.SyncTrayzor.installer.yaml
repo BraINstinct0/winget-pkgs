@@ -15,8 +15,8 @@ Installers:
   Architecture: x64
   InstallerType: inno
   Scope: machine
-  InstallerUrl: https://github.com/canton7/SyncTrayzor/releases/download/v1.0.7/SyncTrayzorSetup-x64.exe
-  InstallerSha256: 3E65F4DBFDAEBB10B34E3A50FE1E7057F564AD1481DD87B594D6C4AEFEF453D9
+  InstallerUrl: https://github.com/canton7/SyncTrayzor/releases/download/v1.0.8/SyncTrayzorSetup-x64.exe
+  InstallerSha256: DCA9D92329D33C7452091F086F539B5851FFB2145AA76FBA35056C6B71B16963
   InstallerSwitches:
     Custom: /NORESTART
   UpgradeBehavior: install
@@ -24,8 +24,8 @@ Installers:
   Architecture: x86
   InstallerType: inno
   Scope: machine
-  InstallerUrl: https://github.com/canton7/SyncTrayzor/releases/download/v1.0.7/SyncTrayzorSetup-x86.exe
-  InstallerSha256: 1E0F61C5F5A840D4E7998ADDF9CDD4BB283CFF6A4C52B3F6707637A8C3BC31F9
+  InstallerUrl: https://github.com/canton7/SyncTrayzor/releases/download/v1.0.8/SyncTrayzorSetup-x86.exe
+  InstallerSha256: 90E14D49F2A07C45279EFB159D9B86A46D549B5E8D67C4F95364729FEE9A858F
   InstallerSwitches:
     Custom: /NORESTART
   UpgradeBehavior: install
